@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Information and Admissions</title>
+    <link rel="stylesheet" href="pro12.css">
+</head>
+<body>
+
+    <header>
+        <h1>ABC College of Engineering</h1>
+        <p>Knowledge | Innovation |Excellence</p>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to ABC College of Engineering</h2>
+
+        <img src="https://placehold.co/800x300?text=College+Campus"
+             alt="College Campus" width="600">
+
+        <p>
+            Welcome to ABC College of Engineering, an institution committed
+            to providing quality education, technical knowledge, innovation,
+            and career development.
+        </p>
+
+        <a href="#admissions">Apply for Admission</a>
+    </section>
+
+    <hr>
+
+    <section id="about">
+        <h2>About Our College</h2>
+
+        <p>
+            ABC College of Engineering was established to provide quality
+            education and develop skilled professionals. Our college promotes
+            academic excellence, research, creativity, and practical learning.
+        </p>
+
+        <h3>Our Vision</h3>
+        <p>To become a leading institution in education, research, and innovation.</p>
+
+        <h3>Our Mission</h3>
+        <p>
+            To provide quality education, encourage innovation, and prepare
+            students for professional and personal success.
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="departments">
+        <h2>Our Departments</h2>
+
+        <ul>
+            <li>Computer Science and Engineering</li>
+            <li>Electronics and Communication Engineering</li>
+            <li>Electrical and Electronics Engineering</li>
+            <li>Mechanical Engineering</li>
+            <li>Civil Engineering</li>
+            <li>Information Technology</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="courses">
+        <h2>Courses Offered</h2>
+
+        <table border="10"cellpadding="10">
+            <tr>
+                <th>S.No.</th>
+                <th>Course Name</th>
+                <th>Duration</th>
+                <th>Eligibility</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>B.Tech</td>
+                <td>4 Years</td>
+                <td>10+2 or equivalent</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>M.Tech</td>
+                <td>2 Years</td>
+                <td>Relevant Bachelor's Degree</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>MBA</td>
+                <td>2 Years</td>
+                <td>Recognized Bachelor's Degree</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="faculty">
+        <h2>Faculty Profiles</h2>
+
+        <h3>Dr. Ramesh Kumar</h3>
+        <p>Department: Computer Science and Engineering</p>
+        <p>Qualification: Ph.D. in Computer Science</p>
+
+        <h3>Prof. Lakshmi Devi</h3>
+        <p>Department: Electronics and Communication Engineering</p>
+        <p>Qualification: M.Tech</p>
+
+        <h3>Prof. Suresh Rao</h3>
+        <p>Department: Mechanical Engineering</p>
+        <p>Qualification: M.Tech</p>
+    </section>
+
+    <hr>
+
+    <section id="facilities">
+        <h2>Campus Facilities</h2>
+
+        <ul>
+            <li>Digital Library</li>
+            <li>Computer Laboratories</li>
+            <li>Sports and Recreation Facilities</li>
+            <li>Hostel Accommodation</li>
+            <li>Transportation Facilities</li>
+            <li>Wi-Fi Campus</li>
+            <li>Seminar Halls</li>
+            <li>Placement and Training Cell</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="events">
+        <h2>College Events</h2>
+
+        <table border="11" cellpadding="10">
+            <tr>
+                <th>S.No.</th>
+                <th>Event Name</th>
+                <th>Category</th>
+                <th>Venue</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Technical Symposium</td>
+                <td>Technical</td>
+                <td>Main Auditorium</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Annual Day</td>
+                <td>Cultural</td>
+                <td>College Ground</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Project Exhibition</td>
+                <td>Academic</td>
+                <td>Seminar Hall</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Sports Meet</td>
+                <td>Sports</td>
+                <td>Sports Ground</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="admissions">
+        <h2>Admissions</h2>
+
+        <h3>Admission Procedure</h3>
+
+        <ol>
+            <li>Check the eligibility requirements.</li>
+            <li>Select the preferred course.</li>
+            <li>Fill out the admission application form.</li>
+            <li>Submit the required documents.</li>
+            <li>Attend counselling or entrance procedures, if applicable.</li>
+            <li>Complete the admission formalities.</li>
+        </ol>
+
+        <h3>Admission Enquiry Form</h3>
+
+        <form action="#" method="post">
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br><br>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="">Choose a course</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="M.Tech">M.Tech</option>
+                <option value="MBA">MBA</option>
+            </select>
+            <br><br>
+
+            <label for="message">Your Enquiry:</label>
+            <br>
+            <textarea id="message" name="message" rows="4" cols="40"></textarea>
+            <br><br>
+
+            <button type="submit">Submit Enquiry</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p><strong>College Name:</strong> ABC College of Engineering</p>
+        <p><strong>Address:</strong> Vijayawada, Andhra Pradesh, India</p>
+        <p><strong>Email:</strong> info@abccollege.example</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Office Hours:</strong> Monday to Saturday, 9:00 AM to 5:00 PM</p>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p> 2026 ABC College of Engineering. All Rights Reserved.</p>
+        <p>Designed for the Web Development Case Study.</p>
+    </footer>
+
+</body>
+</html>
+

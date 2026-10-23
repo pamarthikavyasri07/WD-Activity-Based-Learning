@@ -1,0 +1,226 @@
+HTMLWrap linesCopy codePreview
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Learning Platform</title>
+    <link rel="stylesheet" href="pro3.css">
+</head>
+<body>
+
+    <header>
+        <h1>LearnOnline</h1>
+        <p>Your Gateway to Knowledge and Skills</p>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#courses">Courses</a> |
+            <a href="#instructors">Instructors</a> |
+            <a href="#categories">Categories</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+        <hr>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to LearnOnline</h2>
+        <img src="https://placehold.co/800x300?text=Online+Learning"
+             alt="Online Learning Platform" width="600">
+
+        <p>
+            Learn new skills from experienced instructors through our online
+            courses. Study at your own pace and improve your knowledge.
+        </p>
+
+        <a href="#courses">Explore Courses</a>
+    </section>
+
+    <hr>
+
+    <section id="categories">
+        <h2>Course Categories</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Programming</li>
+            <li>Data Science</li>
+            <li>Artificial Intelligence</li>
+            <li>Graphic Design</li>
+            <li>Cybersecurity</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="courses">
+        <h2>Popular Courses</h2>
+
+        <article>
+            <h3>1. HTML and CSS for Beginners</h3>
+            <img src="https://placehold.co/400x200?text=HTML+and+CSS"
+                 alt="HTML and CSS Course" width="300">
+
+            <p><strong>Instructor:</strong> John Smith</p>
+            <p><strong>Duration:</strong> 6 Weeks</p>
+            <p><strong>Price:</strong> ₹999</p>
+
+            <p>
+                Learn how to create webpages using HTML and style them
+                using CSS.
+            </p>
+
+            <h4>Learning Objectives</h4>
+            <ul>
+                <li>Understand HTML elements and attributes.</li>
+                <li>Create webpage layouts using CSS.</li>
+                <li>Design responsive websites.</li>
+            </ul>
+
+            <p>Course Progress: 70%</p>
+            <progress value="70" max="100">70%</progress>
+            <br><br>
+
+            <button type="button"
+                    onclick="enroll('HTML and CSS for Beginners')">
+                Enroll Now
+            </button>
+        </article>
+
+        <hr>
+
+        <article>
+            <h3>2. JavaScript Programming</h3>
+            <img src="https://placehold.co/400x200?text=JavaScript"
+                 alt="JavaScript Course" width="300">
+
+            <p><strong>Instructor:</strong> Sarah Johnson</p>
+            <p><strong>Duration:</strong> 8 Weeks</p>
+            <p><strong>Price:</strong> ₹1499</p>
+
+            <p>
+                Learn JavaScript fundamentals and develop interactive
+                websites and web applications.
+            </p>
+
+            <h4>Learning Objectives</h4>
+            <ul>
+                <li>Understand variables and data types.</li>
+                <li>Learn functions and loops.</li>
+                <li>Handle events and webpage interactions.</li>
+            </ul>
+
+            <p>Course Progress: 45%</p>
+            <progress value="45" max="100">45%</progress>
+            <br><br>
+
+            <button type="button"
+                    onclick="enroll('JavaScript Programming')">
+                Enroll Now
+            </button>
+        </article>
+
+        <hr>
+
+        <article>
+            <h3>3. Python Programming</h3>
+            <img src="https://placehold.co/400x200?text=Python"
+                 alt="Python Programming Course" width="300">
+
+            <p><strong>Instructor:</strong> David Wilson</p>
+            <p><strong>Duration:</strong> 10 Weeks</p>
+            <p><strong>Price:</strong> ₹1999</p>
+
+            <p>
+                Learn Python programming from the basics and develop
+                problem-solving skills through practical exercises.
+            </p>
+
+            <h4>Learning Objectives</h4>
+            <ul>
+                <li>Understand Python syntax.</li>
+                <li>Work with lists, loops, and functions.</li>
+                <li>Develop simple Python applications.</li>
+            </ul>
+
+            <p>Course Progress: 25%</p>
+            <progress value="25" max="100">25%</progress>
+            <br><br>
+
+            <button type="button"
+                    onclick="enroll('Python Programming')">
+                Enroll Now
+            </button>
+        </article>
+    </section>
+
+    <hr>
+
+    <section id="instructors">
+        <h2>Our Instructors</h2>
+
+        <article>
+            <h3>John Smith</h3>
+            <p>Specialization: Web Development</p>
+            <p>Experienced in HTML, CSS, and website design.</p>
+        </article>
+
+        <article>
+            <h3>Sarah Johnson</h3>
+            <p>Specialization: JavaScript Programming</p>
+            <p>Experienced in interactive web applications.</p>
+        </article>
+
+        <article>
+            <h3>David Wilson</h3>
+            <p>Specialization: Python Programming</p>
+            <p>Experienced in programming and software development.</p>
+        </article>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Student Enrollment Form</h2>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="">Choose a Course</option>
+                <option value="HTML and CSS">HTML and CSS for Beginners</option>
+                <option value="JavaScript">JavaScript Programming</option>
+                <option value="Python">Python Programming</option>
+            </select>
+            <br><br>
+
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@learnonline.example</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Address: Vijayawada, Andhra Pradesh, India</p>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>2026 LearnOnline. All Rights Reserved.</p>
+        <p>Learn Today, Lead Tomorrow!</p>
+    </footer>
+
+</body>
+</html>
+```
